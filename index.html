@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header  -->
+    <header class="header">
+      <a href="#" class="logo"><span>SK RAHAMAT</span></a>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contect">Contect</a>
+        </li>
+      </ul>
+
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+      <button class="visit-btn">Visit Github</button>
+    </header>
+
+    <!-- About me -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <img src="./images/profile-image.jpeg" alt="" />
+
+        <div class="info-box">
+          <div class="text">
+            <h3>Hello, I'm</h3>
+            <h1>Sk Rahamat</h1>
+            <span>Web Developer</span>
+          </div>
+
+          <div class="btn-group">
+            <div class="btn">
+              <a
+                href="./images/Sk_Rahamat_CV (1).pdf"
+                download="Sk_Rahamat_CV"
+                class="btn-download"
+              >
+                Download CV </a
+              >
+            </div>
+            <div class="btn">
+              <a href="mailto:yourname@email.com" class="your-button-class"
+                >Contact</a
+              >
+            </div>
+          </div>
+
+          <div class="socials">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+
+    <section id="experience" class="experience">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="experience-info">
+        <div class="grid">
+          <div class="grid-card">
+            <i class="fa-solid fa-laptop"></i>
+            <span>Motion Graphic</span>
+            <h3>2 years</h3>
+            <p>Designing fluid 2D/3D animations and cinematic title sequences for digital media.</p>
+          </div>
+
+          <div class="grid-card third">
+            <i class="fa-solid fa-file-code"></i>
+            <span>Graphic Deaign</span>
+            <h3>1 years</h3>
+            <p>Creating modern brand identities and layouts with a focus on typography and visual balance.</p>
+          </div>
+
+          <div class="grid-card">
+            <i class="fa-solid fa-film"></i>
+            <span>VFX Compositor</span>
+            <h3>3 years</h3>
+            <p>Executing seamless multi-layer compositing, rotoscoping, and high-end visual integration for film.</p>
+          </div>
+        </div>
+
+        <img src="./images/profile-image.jpeg" alt="" />
+      </div>
+    </section>
+
+
+
+    <!-- Project section -->
+    <sectiion id="projects" class="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="./images/project-1.png" alt="" />
+          <h3>Music Website</h3>
+          <p>
+             A dynamic music streaming landing page featuring a sleek dark-mode interface and integrated media player controls.
+          </p>
+          <div class="btn-group">
+            <div class="btn"><a href="./Music Website/index.html">Demo</a></div>
+            <div class="btn"><a href="#">Github Repo</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./images/project-2.png" alt="" />
+          <h3>job Application form</h3>
+          <p>
+            This project demonstrates front-end form handling, focusing on accessibility, clear labels, and responsive layout design.
+          </p>
+          <div class="btn-group">
+            <div class="btn"><a href="./job Application form/index.html">Demo</a></div>
+            <div class="btn"><a href="#">Github Repo</a></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="./images/project-3.png" alt="" />
+          <h3>Restaurant Website</h3>
+          <p>
+            A vibrant restaurant landing page designed to showcase menus and facilitate quick online food ordering.
+          </p>
+          <div class="btn-group">
+            <div class="btn"><a href="./Restaurant Website/index.html">Demo</a></div>
+            <div class="btn"><a href="#">Github Repo</a></div>
+          </div>
+        </div>
+      </div>
+    </sectiion>
+
+    <section class="contect" id="contect">
+      <div class="input-box">
+        <h2 class="section-title">Contect Me</h2>
+
+        <div class="input">
+          <input type="text" placeholder="example@email.com" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <div class="btn">Submit</div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <footer>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="contect">Contect</a>
+        </li>
+      </ul>
+
+      <p class="copyright">© All Rights Reserved | Sk Rahamat</p>
+    </footer>
+
+    <script src="./Js/index.js" charset="UTF-8"></script>
+  </body>
+</html>

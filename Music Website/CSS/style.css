@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600:  #dc0000;
+    --body:   #f9f6ff;
+    --max-width: 1200px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+     font-family: "Roboto", sans-serif;
+     line-height: 1.4;
+     font-weight: 300;
+     scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    
+    background-color: rgb(68, 6, 211); 
+    position: sticky;
+   top: 0;
+   z-index: 100;
+   box-shadow: 6px 6px 6px rgba(1, 1, 1, 0.3);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+}
+nav ul li{
+   border-bottom: 2px solid transparent; 
+   transition: 0.2s ease-in-out;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo img{
+    width: 200px;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(./images/hero-img.jpg);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: white;
+}
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero-section img{
+   width: 500px;
+   margin-left: 90px;
+   margin-bottom: 40px;
+}
+
+.hero-section h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* music section */
+.music-section{
+    padding-top: 50px;
+    background:linear-gradient(rgb(92, 48, 196), rgb(68, 6, 211)    );
+}
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+.music-section h2 {
+    font-size: 40px;
+}
+.music-section h3{
+    font-size: 25px;
+}
+.music-section h4{
+    font-weight: 400;
+}
+.music-section button{
+    background-color:rgb(12, 81, 219);
+    border: none;
+}
+.primary-btn{
+    padding: 15px 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+.primary-btn:hover{
+    transform: scale(1.03);
+    background-color: rgb(46, 188, 210);
+    box-shadow: 6px 6px 6px rgba(1, 1, 1, 0.5);
+}
+
+.ipad-iphone-imgh{
+    position: relative;
+    margin-top: -400px;
+    top: 400px;
+}
+
+/* music about */
+.about-music{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    margin-top: 30%;
+    gap: 30px;
+}
+.about-music h3{
+    font-size: 25px;
+}
+.about-music h4{
+    font-family: 10px;
+    font-weight: 400;
+}
+.secondary-btn{
+    background-color: rgb(11, 96, 234);
+    padding: 13px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+}
+.secondary-btn:hover{
+    transform: scale(1.02);
+    background-color: rgb(14, 178, 223);
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+}
+
+/* video section */
+.video-section{
+    background-image: url(./images/video-img.png);
+   min-height: 600px;
+   display: grid;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: white;
+   place-items: center;
+   gap: 30px;
+}
+
+.video-section, h2 {
+    padding-bottom: 30px;
+}
+
+
+
+.hero-section, .video-section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.video-section h5{
+    margin-top: -150px;
+    padding-top: -200px;
+}
+
+/* gift-section */
+.gift-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* footer */
+.upper-footer{
+    background-color: rgb(66, 5, 209);
+    padding: 20px;
+    color:white;
+    
+}
+.upper-footer, .container{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 150px;
+
+}
+
+.upper-footer h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.lower-footer{
+    background-color:rgb(66, 6, 185);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.gift-section{
+    scroll-margin: 120px ;
+}
